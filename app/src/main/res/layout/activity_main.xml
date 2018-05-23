@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/controllers"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oct 29"
+        android:id="@+id/date"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:textSize="45sp"
+        android:textColor="@android:color/white"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skyline LAN"
+        android:id="@+id/lan_text"
+        android:layout_below="@id/date"
+        android:paddingLeft="10dp"
+        android:textSize="35sp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Come Play With Us!"
+        android:layout_below="@id/lan_text"
+        android:paddingLeft="10dp"
+        android:textSize="35sp"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>
